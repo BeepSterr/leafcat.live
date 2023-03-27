@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://wiki.teamfortress.com/w/images/4/47/Cp_mossrock_riverwalk.png");
+    background-position: center;
+    color: black;
+
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+header, main, footer {
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    height: 50px;
+}
+
+.container {
+    background-color: #f3dfb2;
+    max-width: min(500px, 85vw);
+    margin: auto;
+
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 10px;
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.info {
+    border: solid 2px #db9c52;
+    display: flex;
+}
+
+.now-live {
+    border: solid 2px #e135e1;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container > div > a {
+    display: inline-block;
+    padding: 10px;
+    border: solid 2px #9191c9;
+    background-color: white;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+a:hover {
+    background-color: #181818;
+    color: #9191c9;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    color: white;
+}
+
+footer > a {
+    color: white;
+}
